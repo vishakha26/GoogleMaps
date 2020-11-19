@@ -225,7 +225,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 // The dialog is automatically dismissed when a dialog button is clicked.
         alertDialog.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        // Continue with delete operation
                         polyline.remove();
                         resultText.setText("Hold and drag marker to set position");
                     }
