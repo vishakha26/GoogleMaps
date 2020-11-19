@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Maps App</string>
+    <string name="title_tutorial">Distance</string>
+    <string name="desc_tutorial">You can hold and drag marker around map to measure distance between two points</string>
+</resources>
